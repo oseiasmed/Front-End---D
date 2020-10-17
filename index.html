@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grupo Delta</title>
+    <meta name="description" content="Desafio Grupo Delta - Desenvolvedor Web Junior" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Oséias Medeiros" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Seção 1 (Header) -->
+    <section>
+      <header>
+        <div class="nav">
+          <a href="index.html"><p class="logo" style="margin-top: -7px">Delta Grupo</p></a>
+          <span class="hamburger" onclick="openNav()">&#9776;</span>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+            <a href="#">Menu 4</a>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- Seção 2 (Banner) -->
+    <section>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Lorem ipsum dolor sit<br />amet, consectetur</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 3 (Slider em telas pequenas) -->
+    <section>
+      <div class="bg-color-white hide-on-large">
+        <div>
+          <!-- Bloco de texto -  Início  -->
+          <div class="block-text-card">
+            <img src="img/truck_icon.png" class="card-img" />
+            <h1 class="card-title">Carousel 1</h1>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
+              sed diam nonumy eirmod tempor invidunt ut labore et <br />
+              dolore magna aliquyam erat, sed diam voluptua. At vero <br />eos et accusam et justo duo
+            </p>
+          </div>
+          <!-- Bloco de texto - Fim -->
+
+          <!-- Bloco de imagem - Início -->
+          <div class="block-img-card">
+            <img src="img/man.png" />
+          </div>
+          <!-- Bloco de imagem - Fim  -->
+        </div>
+
+        <div>
+          <!-- Bloco de texto -  Início  -->
+          <div class="block-text-card">
+            <img src="img/truck-trunk.png" class="card-img" />
+            <h1 class="card-title">Carousel 2</h1>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br />
+              sed diam nonumy eirmod tempor invidunt ut labore et <br />
+              dolore magna aliquyam erat, sed diam voluptua. At vero<br />
+              eos et accusam et justo duo
+            </p>
+          </div>
+          <!-- Bloco de texto - Fim -->
+
+          <!-- Bloco de imagem - Início -->
+          <div class="block-img-card">
+            <img src="img/truck.png" />
+          </div>
+          <!-- Bloco de imagem - Fim  -->
+        </div>
+
+        <div>
+          <!-- Bloco de texto -  Início  -->
+          <div class="block-text-card">
+            <img src="img/maps.png" class="card-img" />
+            <h1 class="card-title">Carousel 3</h1>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br />
+              sed diam nonumy eirmod tempor invidunt ut labore et <br />
+              dolore magna aliquyam erat, sed diam voluptua. At vero <br />
+              eos et accusam et justo duo dolores et ea rebum. Stet clita<br />kasd gubergren, no
+            </p>
+          </div>
+          <!-- Bloco de texto - Fim -->
+
+          <!-- Bloco de imagem - Início -->
+          <div class="block-img-card">
+            <img src="img/earth.png" />
+          </div>
+          <!-- Bloco de imagem - Fim  -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Seção 4 (Slider em telas Médias e Grandes) -->
+    <section class="hide-on-mobile">
+      <div class="box-container">
+        <div class="slideshow-container up-slide">
+          <div class="mySlides fade">
+            <!-- Bloco de texto -  Início  -->
+            <div class="block-text-card">
+              <img src="img/truck_icon.png" class="card-img" />
+              <h1 class="card-title">Carousel 1</h1>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
+                sed diam nonumy eirmod tempor invidunt ut labore et <br />
+                dolore magna aliquyam erat, sed diam voluptua. At vero <br />eos et accusam et justo duo
+              </p>
+              <div class="hide-on-mobile squads">
+                <span class="normal-active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              </div>
+            </div>
+            <!-- Bloco de texto - Fim -->
+
+            <!-- Bloco de imagem - Início -->
+            <div class="block-img-card">
+              <img src="img/man.png" />
+            </div>
+            <!-- Bloco de imagem - Fim  -->
+          </div>
+
+          <div class="mySlides fade">
+            <!-- Bloco de texto -  Início  -->
+            <div class="block-text-card">
+              <img src="img/truck-trunk.png" class="card-img" />
+              <h1 class="card-title">Carousel 2</h1>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br />
+                sed diam nonumy eirmod tempor invidunt ut labore et <br />
+                dolore magna aliquyam erat, sed diam voluptua. At vero<br />
+                eos et accusam et justo duo
+              </p>
+              <div style="width: 400px; position: relative; margin-top: 7%; margin-left: 65%; padding: 5px" class="hide-on-mobile">
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal-active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              </div>
+            </div>
+            <!-- Bloco de texto - Fim -->
+
+            <!-- Bloco de imagem - Início -->
+            <div class="block-img-card">
+              <img src="img/truck.png" />
+            </div>
+            <!-- Bloco de imagem - Fim  -->
+          </div>
+
+          <div class="mySlides fade">
+            <!-- Bloco de texto -  Início  -->
+            <div class="block-text-card">
+              <img src="img/maps.png" class="card-img" />
+              <h1 class="card-title">Carousel 3</h1>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br />
+                sed diam nonumy eirmod tempor invidunt ut labore et <br />
+                dolore magna aliquyam erat, sed diam voluptua. At vero <br />
+                eos et accusam et justo duo dolores et ea rebum. Stet clita<br />kasd gubergren, no
+              </p>
+              <div class="hide-on-mobile squads">
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="normal-active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              </div>
+            </div>
+            <!-- Bloco de texto - Fim -->
+
+            <!-- Bloco de imagem - Início -->
+            <div class="block-img-card">
+              <img src="img/earth.png" />
+            </div>
+            <!-- Bloco de imagem - Fim  -->
+          </div>
+
+          <!-- Botões avançar e voltar -->
+          <div class="hide-on-mobile">
+            <a class="prev" onclick="plusSlides(-1)"><img src="img/left-arrow.png" /></a>
+            <a class="next" onclick="plusSlides(1)"><img src="img/right-arrow.png" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="js/main.js"></script>
+</html>
