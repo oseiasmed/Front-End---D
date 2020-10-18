@@ -27,7 +27,7 @@ img {
 * {
   box-sizing: border-box;
 }
-.bg-color-white{
+.mobile-box{
   background-color:#ffffff;
   padding-top: 5%;
 }
